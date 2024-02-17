@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+header{
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;/* 
+  background-image: linear-gradient(to bottom right, rgb(236, 240, 255), rgb(29, 29, 29)); */
+  background-color: #252525;
+  color: azure;
+}
+
+h1{
+  margin: 0;
+  font-size: 50px;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+root{
+  background-color: rgb(51, 51, 51);
+}
+tr:nth-child(even){
+  background-color: #f3f6fe;
+}
+tr:nth-child(odd){
+  background-color: #dfe8ff
+}
+th {
+  background-color: #252525;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+th, td {
+  padding: 15px;
+}
+.employeeCreate{
+  background-color: azure;
+  padding: 10px;
+}
+/* .employeeCreate form div{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 30% auto;
+} */
+
+.footer{
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 20px;
+  background-color: #252525;
+}
+input, select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+input:focus {
+  border: 3px solid #555;
+}
+input[type=text].Search {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;/* 
+  background-image: url('../public/searchicon.png'); */
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.input-red{
+  border: 2px solid #f72020;
+}
+.btnSubmit {
+  background-color: #494D5F;
+  font-size: 15px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 500ms;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+}
+
+/* .btnSubmit:hover {
+  transition: 500ms;
+  background-color: rgb(255, 255, 255);
+  color:#494D5F;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+} */
+
+.searchBox{
+  display: grid;
+  grid-template-columns: auto 15% auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox *{
+  padding: 10px;
+}
+
+.buttonsClass *{
+  margin: 2px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.employeeCreate{
+  background-color: #f3f6fe;
+  padding: 10px;
+  width: fit-content;
+  margin: 10px auto;
+}
+.employeeCreate form > div{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 33% 33% auto;
+}
+
+.employeeCreate form > div > div{
+  padding: 10px;/* 
+  background-color: #eeeeee;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px; */
+}
+
+.loadingText, .nav, .SuccessMessage{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  background-color: #494D5F;
+  display: flex;
+  gap: 20px;
+}
+
+.nav > a{
+  font-size: larger;
+  padding: 10px;
+  color: white;
+}
+
+.nav > a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.SuccessMessage{
+  font-size: x-large;
+}
