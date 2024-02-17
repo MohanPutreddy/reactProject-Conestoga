@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const url = 'mongodb+srv://mohan:mohan@cluster0.ph8tsqe.mongodb.net/employeeList?retryWrites=true&w=majority';
+const url = '';
 let db;
 
 const connectToDb = (callback) => {
